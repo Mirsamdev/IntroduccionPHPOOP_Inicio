@@ -1,0 +1,16 @@
+{
+    "name": "mery/introduccion-phpoop_inicio",
+    "description": "Aprendiendo namespaces y autoload",
+    "authors": [
+        {
+            "name": "Samuel",
+            "email": "xmirandadevx@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.10"
+    },
+    "autoload": {
+        "psr-4": {"App\\" : "./clases"}
+    }
+}
